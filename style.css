@@ -1,0 +1,320 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    /* Nav-bar */
+
+.nav-bar{background-color:#f5f5dc;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+        height: 80px;
+        position: fixed;
+        
+        }
+
+.nav-bar-logo{height: 70px;
+                width: auto;
+                border-radius: 10px;}
+
+.nav-bar-list{list-style: none;
+            display: flex;
+            gap: 20px;
+            justify-content:center;
+            align-items: center;
+           }
+
+.nav-bar-list a{text-decoration: none;
+                font-size: 18px;
+                color: #283618;
+                font-weight: 600;} 
+
+.nav-bar button{background: none;
+                border: none;}
+
+.nav-bar button a{background: #606c38;
+                padding: 10px;
+                border-radius:10px;
+                font-size: 20px;
+                color:#fefae0;
+                width: auto;
+                text-decoration: none;
+                border: black;
+                }
+
+.img-usuario{width: 40px;
+                height: 40px;}
+
+.reserva{display: flex;
+        gap: 30px;
+        padding: 10px;}
+
+        /* Nav-Bar */
+
+        /* Section-Principal */
+main{background-image: url(./img/fondo-5.avif);
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+    #section-hero{margin-top: 100px;
+                display:flex;
+                flex-direction: column;
+                max-width: 1200px;
+                padding: 70px 0px;}
+
+    .info-principal{display: flex;
+                    flex-direction: column;
+                    gap: 50px;
+                    width: 50%;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;}
+    
+.info-principal h1{font-size: 48px;
+                    font-weight: 900;
+                    color:#ffd1dc;}
+
+.info-principal p{font-size: 20px;
+                    font-weight: 700;
+                    color: #f5f5dc;
+                }
+
+.redes-sociales{display: flex;
+                gap: 30px;
+                width: 100%;}
+
+                /* Section de productos */
+
+    #section-products{margin-top: 100px;
+                display:flex;
+                flex-direction:column;
+                 max-width: 1200px;
+                padding: 70px 0px;
+                justify-content: center;
+                align-items: center;}
+
+     #section-products h1{font-size: 48px;
+                        font-weight: 700;
+                        color: #ffd1dc;}
+
+    .cafe-expresso{width:40%;}
+
+    .products-cards{display: flex;
+                    flex-wrap: wrap;
+                    justify-content:center;
+                    align-items: center;
+                    flex-direction: row;
+                    gap: 30px;}
+
+                .cards{display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                    padding: 20px 0px;
+                    }
+
+    .info-coffe{display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;}
+
+
+    .cards h3{font-size: 25px;
+                        color: #f5f5dc;
+                        font-weight:900;}
+
+    .info-coffe h4{font-size: 20px;
+                    font-weight: 700;
+                    color: #f5f5dc;}
+
+      .info-coffe a{text-decoration: none;
+                    background: #343a40;
+                    color:#e9ecef ;
+                    padding: 10px;
+                    font-size: 20px;
+                    border-radius: 10px;}
+                    
+        /* Pasteleria */
+
+    #section-pasteleria{margin-top: 100px;
+                display:flex;
+                flex-direction:column;
+                 max-width: 1200px;
+                padding: 70px 0px;
+                justify-content: center;
+                align-items: center;
+                gap: 70px;}
+
+    
+        .card-pasteleria{display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 20px 0px;
+                        width: 100%;
+                        gap: 30px;
+                        border: solid 3px #bc6c25;
+                        border-radius: 30px;}
+
+        .pasteleria{width: 50%;
+                    padding: 5px;}
+
+        .pasteleria-info{display: flex;
+                        flex-direction: column;
+                        text-align:center;
+                        justify-content: space-between;
+                        height: 300px;
+                        }
+
+        .pasteleria-info-top{display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            justify-content: center;
+                            text-align: start;}
+
+
+        .pasteleria-info-bot{display: flex;
+                             justify-content:center;
+                            text-align: center;
+                            gap: 50px;
+                            padding: 0px 10px;
+                            }
+
+        .pasteleria-info-top h1{color: #ffd1dc;
+                                font-size: 48px;
+                                font-weight: 700;}
+
+        .pasteleria-info-top h3{color: #f5f5dc;
+                            font-size: 21px;
+                            font-weight: 500;}
+
+        .pasteleria-info-bot h4{color:#ffd1dc;
+                                font-size: 20px;
+                                padding-top: 10px;}
+
+        .pasteleria-info-bot a{text-decoration: none;
+                    background: #343a40;
+                    color:#e9ecef ;
+                    padding: 10px;
+                    font-size: 20px;
+                    border-radius: 10px;}
+
+
+            .pasteleria-matcha{width: 30%;}
+
+            .pasteleria-pokemon{width: 30%;}
+        
+
+          /* Contacto */
+        
+
+        
+
+    .formulario {
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.formulario h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 15px;
+  color: #555;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.formulario button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #45a049;
+}
+
+#section-contact{margin-top: 100px;
+                display:flex;
+                flex-direction:column;
+                 max-width: 1200px;
+                padding: 70px 0px;
+                justify-content: center;
+                align-items: center;
+                gap: 70px;}
+
+    .iframe{width: 100%;}
+
+    .contact{display: flex;
+        justify-content: space-between;
+        text-align: center;}
+
+.contact-networking{display: flex;
+                    flex-direction: column;
+                    width: 60%;
+                    gap: 20px;}
+
+  .networking{display: flex;
+              justify-content: space-between;
+              text-align: center;
+              padding: 20px 0px;}
+
+  .contact-networking h3{color: #ffd1dc;
+                        font-size: 20px;
+                        font-weight: 700;}
+
+
+  /* Footer */
+
+  #footer-section{background: #283618;}
+
+
+
+
+
+    
+
+        
+
