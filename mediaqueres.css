@@ -1,5 +1,6 @@
 #menu-toggle,
-.menu-label {
+.menu-label,
+.pokemon-taza {
     display: none;
 }
 
@@ -10,6 +11,17 @@
     /* Navbar */
     header {
         overflow-x: hidden;
+    }
+
+    .pokemon-taza {
+        display: flex;
+    }
+
+    main {
+        background: linear-gradient(to bottom,
+                #4e342e 0%,
+                #8b5e3c 50%,
+                #2e2e2e 100%);
     }
 
     .reserva {

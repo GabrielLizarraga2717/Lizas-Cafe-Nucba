@@ -25,6 +25,10 @@
   border-radius: 10px;
 }
 
+.pokemon-taza {
+  width: 100px;
+}
+
 .nav-bar-list {
   list-style: none;
   display: flex;
@@ -74,7 +78,6 @@ main {
   background-image: url(./img/fondo-5.avif);
   display: flex;
   flex-direction: column;
-
   width: 100%;
   justify-content: center;
   align-items: center;
