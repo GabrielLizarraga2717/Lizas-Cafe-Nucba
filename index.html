@@ -1,163 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueres.css">
     <title>Cafe´s Liza 🤎</title>
 </head>
+
 <body>
     <header>
-     <!-- Navbar -->
-      <nav class="nav-bar">
-        <img src="./img/logo-cafe.png" alt="" class="nav-bar-logo">
-        <ul class="nav-bar-list">
-            <li><a href="#section-products">Cafeteria</a></li>
-            <li><a href="#section-pasteleria">Pasteleria</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Puntos Club</a></li>
-        </ul>
-        <div class="reserva">
-        <a href="#"><button>Reservar</a></button>
-        <a href="#"><img src="./img/usuario.png" alt="" class="img-usuario"></a>
-        </div>
-      </nav>
+        <!-- Navbar -->
+        <nav class="nav-bar">
+            <img src="./img/logo-cafe.png" alt="" class="nav-bar-logo">
+            <label for="menu-toggle" class="menu-label"><img src="./img/lista.png" alt="" class="loguito-lista"></label>
+            <input type="checkbox" name="" id="menu-toggle">
+            <ul class="nav-bar-list">
+
+                <li><a href="#section-products">Cafeteria</a></li>
+                <li><a href="#section-pasteleria">Pasteleria</a></li>
+                <li><a href="#section-contact">Contacto</a></li>
+                <li><a href="#">Puntos Club</a></li>
+            </ul>
+            <div class="reserva">
+                <a href="#"><button>Reservar</a></button>
+                <a href="#"><img src="./img/usuario.png" alt="" class="img-usuario"></a>
+            </div>
+
+        </nav>
     </header>
     <main>
-        <!-- Informacion principal -->  
-         <div id="section-hero">
+        <!-- Informacion principal -->
+        <div id="section-hero">
             <div class="info-principal">
                 <h1>Liza´s Café - Café de especialidad en Buenos Aires</h1>
                 <p>Somos una cafeteria con especialidad en los estilos modernos
-                    de la cafeteria actual, teniendo una fusion de old-new bakery 
+                    de la cafeteria actual, teniendo una fusion de old-new bakery
                 </p>
                 <div class="redes-sociales">
-               <a href=""> <img src="./img/facebook.png" alt=""> </a>
-               <a href=""> <img src="./img/youtube.png" alt=""></a>
-               <a href=""> <img src="./img/instagram.png" alt=""></a>
-               <a href=""> <img src="./img/whatsapp.png" alt=""></a>
+                    <a href=""> <img src="./img/facebook.png" alt=""> </a>
+                    <a href=""> <img src="./img/youtube.png" alt=""></a>
+                    <a href=""> <img src="./img/instagram.png" alt=""></a>
+                    <a href=""> <img src="./img/whatsapp.png" alt=""></a>
                 </div>
             </div>
-         </div>
+        </div>
 
-         <!-- Cafeteria -->
+        <!-- Cafeteria -->
         <div id="section-products">
             <h1>Nuestra cafeteria de especialidad</h1>
             <div class="products-cards">
-            
-            <div class="cards">
-                <img src="./img/cafe-expresso.png" alt="" class="cafe-expresso">
-                <h3>Caffe Expresso</h3>
-                <div class="info-coffe">
-                <h4>3500 ARS$</h3>
-                <a href="#">Comprar</a>
-                </div>
-            </div>
 
-            <div class="cards">
-                <img src="./img/cafee-machiatto.png" alt="" class="cafe-expresso">
-                <h3>Caffe Machiatto</h3>
-                <div class="info-coffe">
-                <h4>9000 ARS$</h3>
-                <a href="#">Comprar</a>
-                </div>
-            </div>
-
-            <div class="cards">
-                <img src="./img/caffe-latte.png" alt="" class="cafe-expresso">
-                <h3>Caffe Latte</h3>
-                <div class="info-coffe">
-                <h4>5000 ARS$</h3>
-                <a href="#">Comprar</a>
-                </div>
-            </div>
-
-            <div class="cards">
-                <img src="./img/cafe-capuccino.png" alt="" class="cafe-expresso">
-                <h3>Caffe Capuccino</h3>
-                <div class="info-coffe">
-                <h4>6500 ARS$</h3>
-                <a href="#">Comprar</a>
-                </div>
-            </div>
-
-            <div class="cards">
-                <img src="./img/cafe-con-helado.png" alt="" class="cafe-expresso">
-                <h3>Caffe con Helado</h3>
-                <div class="info-coffe">
-                <h4>9800 ARS$</h3>
-                <a href="#">Comprar</a>
-                </div>
-            </div>
-            </div>
-            </div>
-
-            <!-- Pasteleria -->
-             <div id="section-pasteleria">
-                <div class="card-pasteleria">
-                    <img src="./img/red-velvet.png" alt="" class="pasteleria">
-                    <div class="pasteleria-info">
-                    <div class="pasteleria-info-top">
-                    <h1>Red Veltvet Cake</h1>
-                    <h3>El Red Velvet Cake (pastel terciopelo rojo) es un pastel tradicional estadounidense 
-                        que se caracteriza por su intenso color rojo oscuro, su textura suave y húmeda, y un sabor 
-                        suave con toques de cacao y vainilla. 
-                        Suele estar cubierto y relleno con un glaseado de queso crema (cream cheese frosting), 
-                        lo que le da un contraste delicioso entre lo dulce, 
-                        lo ácido y lo cremoso.</h3>
-                     </div>
-                     <div class="pasteleria-info-bot">
-                        <h4>10000 ARS$ </h4>
-                        <a href="#"> Comprar </a>
-                     </div>
+                <div class="cards">
+                    <img src="./img/cafe-expresso.png" alt="" class="cafe-expresso">
+                    <h3>Caffe Expresso</h3>
+                    <div class="info-coffe">
+                        <h4>3500 ARS$</h3>
+                            <a href="#">Comprar</a>
                     </div>
                 </div>
 
-                 <div class="card-pasteleria">
-                    <img src="./img/matcha-cake.png" alt="" class="pasteleria-matcha">
-                    <div class="pasteleria-info">
-                    <div class="pasteleria-info-top">
-                    <h1>Matcha Cake</h1>
-                    <h3>El Matcha Cake es un pastel hecho con matcha, 
-                        un tipo de té verde japonés en polvo, conocido por su sabor único, sus propiedades
-                         antioxidantes 
-                        y su característico color verde intenso.</h3>
-                     </div>
-                     <div class="pasteleria-info-bot">
-                        <h4>10000 ARS$ </h4>
-                        <a href="#"> Comprar </a>
-                     </div>
+                <div class="cards">
+                    <img src="./img/cafee-machiatto.png" alt="" class="cafe-expresso">
+                    <h3>Caffe Machiatto</h3>
+                    <div class="info-coffe">
+                        <h4>9000 ARS$</h3>
+                            <a href="#">Comprar</a>
                     </div>
                 </div>
 
-                 <div class="card-pasteleria">
-                    <img src="./img/pokemon-cake.webp" alt="" class="pasteleria-pokemon">
-                    <div class="pasteleria-info">
+                <div class="cards">
+                    <img src="./img/caffe-latte.png" alt="" class="cafe-expresso">
+                    <h3>Caffe Latte</h3>
+                    <div class="info-coffe">
+                        <h4>5000 ARS$</h3>
+                            <a href="#">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="./img/cafe-capuccino.png" alt="" class="cafe-expresso">
+                    <h3>Caffe Capuccino</h3>
+                    <div class="info-coffe">
+                        <h4>6500 ARS$</h3>
+                            <a href="#">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img src="./img/cafe-con-helado.png" alt="" class="cafe-expresso">
+                    <h3>Caffe con Helado</h3>
+                    <div class="info-coffe">
+                        <h4>9800 ARS$</h3>
+                            <a href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pasteleria -->
+        <div id="section-pasteleria">
+            <div class="card-pasteleria">
+                <img src="./img/red-velvet.png" alt="" class="pasteleria">
+                <div class="pasteleria-info">
                     <div class="pasteleria-info-top">
-                    <h1>Pokemon Cake Surprise</h1>
-                    <h3>La Pokemon Cake Surprise, es una receta especial que manejamos bajo agendamiento previo donde
-                        incorporamos tus sabores favoritos para tus ocasiones especiales, con distintos modos
-                        para decorar tu cake, y sorprender a tus invitados con algo especial.
+                        <h1>Red Veltvet Cake</h1>
+                        <h3>El Red Velvet Cake (pastel terciopelo rojo) es un pastel tradicional estadounidense
+                            que se caracteriza por su intenso color rojo oscuro, su textura suave y húmeda, y un sabor
+                            suave con toques de cacao y vainilla.
+                            Suele estar cubierto y relleno con un glaseado de queso crema (cream cheese frosting),
+                            lo que le da un contraste delicioso entre lo dulce,
+                            lo ácido y lo cremoso.</h3>
+                    </div>
+                    <div class="pasteleria-info-bot">
+                        <h4>10000 ARS$ </h4>
+                        <a href="#"> Comprar </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-pasteleria">
+                <img src="./img/matcha-cake.png" alt="" class="pasteleria-matcha">
+                <div class="pasteleria-info">
+                    <div class="pasteleria-info-top">
+                        <h1>Matcha Cake</h1>
+                        <h3>El Matcha Cake es un pastel hecho con matcha,
+                            un tipo de té verde japonés en polvo, conocido por su sabor único, sus propiedades
+                            antioxidantes
+                            y su característico color verde intenso.</h3>
+                    </div>
+                    <div class="pasteleria-info-bot">
+                        <h4>10000 ARS$ </h4>
+                        <a href="#"> Comprar </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-pasteleria">
+                <img src="./img/pokemon-cake.webp" alt="" class="pasteleria-pokemon">
+                <div class="pasteleria-info">
+                    <div class="pasteleria-info-top">
+                        <h1>Pokemon Cake Surprise</h1>
+                        <h3>La Pokemon Cake Surprise, es una receta especial que manejamos bajo agendamiento previo
+                            donde
+                            incorporamos tus sabores favoritos para tus ocasiones especiales, con distintos modos
+                            para decorar tu cake, y sorprender a tus invitados con algo especial.
+                        </h3>
+                    </div>
+                    <div class="pasteleria-info-bot">
+                        <h4>10000 ARS$ </h4>
+                        <a href="#"> Comprar </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contacto -->
+        <div id="section-contact">
+
+
+
+            <div class="contact-networking">
+                <div class="info-contact-top">
+
+                    <h3>Tambien puedes contactarnos a traves de nuestras redes sociales y encontrarnos en nuestra
+                        siguiente
+                        direccion
                     </h3>
-                     </div>
-                     <div class="pasteleria-info-bot">
-                        <h4>10000 ARS$ </h4>
-                        <a href="#"> Comprar </a>
-                     </div>
+                    <h4>Av Gengar Pikachu Zelda 4328, Palermo, CABA</h4>
+                </div>
+                <div class="networking">
+                    <div class="redes-sociales">
+
+                        <a href=""> <img src="./img/facebook.png" alt=""> </a>
+                        <a href=""> <img src="./img/youtube.png" alt=""></a>
+                        <a href=""> <img src="./img/instagram.png" alt=""></a>
+                        <a href=""> <img src="./img/whatsapp.png" alt=""></a>
                     </div>
+
+                    <div class="contact-iframe">
+                        <a href=""> <img src="./img/frame.png" alt="" class="iframe"></a>
+                    </div>
+
                 </div>
-                </div>
+            </div>
+        </div>
+        </div>
 
-                <!-- Contacto -->
-                 <div id="section-contact">
 
-                    <h1>¿Sugerencia o pregunta?</h1>
-                    <div class="contact">
-                    
-                        
-                    <div class="contact-formulario">
+        <div class="contact">
 
-                    <form class="formulario">
+            <h1>¿Sugerencia o pregunta?</h1>
+            <div class="contact-formulario">
+
+                <form class="formulario">
                     <h2>Contacto</h2>
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" name="nombre" required>
@@ -169,55 +206,35 @@
                     <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
 
                     <button type="submit">Enviar</button>
-                    </form>
-                    </div>
-
-                    <div class="contact-networking">
-
-                        <h3>Tambien puedes contactarnos a traves de nuestras redes sociales y encontrarnos en nuestra siguiente
-                            direccion
-                        </h3>
-                        <h4>Av Gengar Pikachu Zelda 4328, Palermo, CABA</h4>
-                        <div class="networking">
-                        <div class="redes-sociales">
-                        
-                        <a href=""> <img src="./img/facebook.png" alt=""> </a>
-                        <a href=""> <img src="./img/youtube.png" alt=""></a>
-                        <a href=""> <img src="./img/instagram.png" alt=""></a>
-                        <a href=""> <img src="./img/whatsapp.png" alt=""></a>
-                        
-
-                        <div class="contact-iframe">
-                           <a href=""> <img src="./img/frame.png" alt="" class="iframe"></a> 
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                    </div>
+                </form>
             </div>
 
 
-    
+
             <!-- Footer -->
 
-        <footer class="section-footer">
-            <div class="footer-elements">
-            <ul>
-                <div class="footer-list">
-                <li><a href="">Terminos y condiciones</a></li>
-                <li><a href="">Aliados</a></li>
-                <li><a href="">Informacion Legal</a></li>
-                <li><a href="">Reportar un error</a></li>
-            </div>
-            </ul>
+            <footer class="section-footer">
 
-            <h4>Paginaaaa creada con amor y ❤️ por Gabriel Lizarraga</h4>
-            </div>
-        </footer>
+                <div class="footer-elements">
+                    <ul>
+                        <div class="footer-list">
+                            <li><a href="">Terminos y condiciones</a></li>
+                            <li><a href="">Aliados</a></li>
+                            <li><a href="">Informacion Legal</a></li>
+                            <li><a href="">Reportar un error</a></li>
+                        </div>
+                    </ul>
+
+                    <h4>Pagina creada con amor y ❤️ por Gabriel Lizarraga</h4>
+                </div>
+            </footer>
 
 
 
-          
+
+
+
     </main>
 </body>
+
 </html>

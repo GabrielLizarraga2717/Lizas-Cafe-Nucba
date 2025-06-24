@@ -1,231 +1,297 @@
-*{margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-    /* Nav-bar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-.nav-bar{background-color:#f5f5dc;
-        display: flex;
-        justify-content:space-between;
-        align-items: center;
-        width: 100%;
-        padding: 10px;
-        height: 80px;
-        position: fixed;
-        
-        }
-
-.nav-bar-logo{height: 70px;
-                width: auto;
-                border-radius: 10px;}
-
-.nav-bar-list{list-style: none;
-            display: flex;
-            gap: 20px;
-            justify-content:center;
-            align-items: center;
-           }
-
-.nav-bar-list a{text-decoration: none;
-                font-size: 18px;
-                color: #283618;
-                font-weight: 600;} 
-
-.nav-bar button{background: none;
-                border: none;}
-
-.nav-bar button a{background: #606c38;
-                padding: 10px;
-                border-radius:10px;
-                font-size: 20px;
-                color:#fefae0;
-                width: auto;
-                text-decoration: none;
-                border: black;
-                }
-
-.img-usuario{width: 40px;
-                height: 40px;}
-
-.reserva{display: flex;
-        gap: 30px;
-        padding: 10px;}
-
-        /* Nav-Bar */
-
-        /* Section-Principal */
-main{background-image: url(./img/fondo-5.avif);
-    display: flex;
-    flex-direction: column;
-   
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;}
-
-    #section-hero{margin-top: 100px;
-                display:flex;
-                flex-direction: column;
-                max-width: 1200px;
-                padding: 70px 0px;}
-
-    .info-principal{display: flex;
-                    flex-direction: column;
-                    gap: 50px;
-                    width: 50%;
-                    justify-content: center;
-                    align-items: center;
-                    flex-wrap: wrap;}
-    
-.info-principal h1{font-size: 48px;
-                    font-weight: 900;
-                    color:#ffd1dc;}
-
-.info-principal p{font-size: 20px;
-                    font-weight: 700;
-                    color: #f5f5dc;
-                }
-
-.redes-sociales{display: flex;
-                gap: 30px;
-                width: 100%;}
-
-                /* Section de productos */
-
-    #section-products{margin-top: 100px;
-                display:flex;
-                flex-direction:column;
-                 max-width: 1200px;
-                padding: 70px 0px;
-                justify-content: center;
-                align-items: center;}
-
-     #section-products h1{font-size: 48px;
-                        font-weight: 700;
-                        color: #ffd1dc;}
-
-    .cafe-expresso{width:40%;}
-
-    .products-cards{display: flex;
-                    flex-wrap: wrap;
-                    justify-content:center;
-                    align-items: center;
-                    flex-direction: row;
-                    gap: 30px;}
-
-                .cards{display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 30px;
-                    padding: 20px 0px;
-                    }
-
-    .info-coffe{display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 30px;}
+/* Nav-bar */
 
 
-    .cards h3{font-size: 25px;
-                        color: #f5f5dc;
-                        font-weight:900;}
+.nav-bar {
+  background-color: #f5f5dc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  height: 80px;
+  position: fixed;
+}
 
-    .info-coffe h4{font-size: 20px;
-                    font-weight: 700;
-                    color: #f5f5dc;}
+.nav-bar-logo {
+  height: 70px;
+  width: auto;
+  border-radius: 10px;
+}
 
-      .info-coffe a{text-decoration: none;
-                    background: #343a40;
-                    color:#e9ecef ;
-                    padding: 10px;
-                    font-size: 20px;
-                    border-radius: 10px;}
-                    
-        /* Pasteleria */
+.nav-bar-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
 
-    #section-pasteleria{margin-top: 100px;
-                display:flex;
-                flex-direction:column;
-                 max-width: 1200px;
-                padding: 70px 0px;
-                justify-content: center;
-                align-items: center;
-                gap: 70px;}
+.nav-bar-list a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #283618;
+  font-weight: 600;
+}
 
-    
-        .card-pasteleria{display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        padding: 20px 0px;
-                        width: 100%;
-                        gap: 30px;
-                        border: solid 3px #bc6c25;
-                        border-radius: 30px;}
+.nav-bar button {
+  background: none;
+  border: none;
+}
 
-        .pasteleria{width: 50%;
-                    padding: 5px;}
+.nav-bar button a {
+  background: #606c38;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fefae0;
+  width: auto;
+  text-decoration: none;
+  border: black;
+}
 
-        .pasteleria-info{display: flex;
-                        flex-direction: column;
-                        text-align:center;
-                        justify-content: space-between;
-                        height: 300px;
-                        }
+.img-usuario {
+  width: 40px;
+  height: 40px;
+}
 
-        .pasteleria-info-top{display: flex;
-                            flex-direction: column;
-                            gap: 20px;
-                            justify-content: center;
-                            text-align: start;}
+.reserva {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
+
+/* Nav-Bar */
+
+/* Section-Principal */
+main {
+  background-image: url(./img/fondo-5.avif);
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#section-hero {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 70px 0px;
+}
+
+.info-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info-principal h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffd1dc;
+}
+
+.info-principal p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f5f5dc;
+}
+
+.redes-sociales {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+/* Section de productos */
+
+#section-products {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 70px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-products h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffd1dc;
+}
+
+.cafe-expresso {
+  width: 40%;
+}
+
+.products-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0px;
+}
+
+.info-coffe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
 
 
-        .pasteleria-info-bot{display: flex;
-                             justify-content:center;
-                            text-align: center;
-                            gap: 50px;
-                            padding: 0px 10px;
-                            }
+.cards h3 {
+  font-size: 25px;
+  color: #f5f5dc;
+  font-weight: 900;
+}
 
-        .pasteleria-info-top h1{color: #ffd1dc;
-                                font-size: 48px;
-                                font-weight: 700;}
+.info-coffe h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f5f5dc;
+}
 
-        .pasteleria-info-top h3{color: #f5f5dc;
-                            font-size: 21px;
-                            font-weight: 500;}
+.info-coffe a {
+  text-decoration: none;
+  background: #343a40;
+  color: #e9ecef;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
 
-        .pasteleria-info-bot h4{color:#ffd1dc;
-                                font-size: 20px;
-                                padding-top: 10px;}
+/* Pasteleria */
 
-        .pasteleria-info-bot a{text-decoration: none;
-                    background: #343a40;
-                    color:#e9ecef ;
-                    padding: 10px;
-                    font-size: 20px;
-                    border-radius: 10px;}
+#section-pasteleria {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 70px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
 
 
-            .pasteleria-matcha{width: 30%;}
+.card-pasteleria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  width: 100%;
+  gap: 30px;
+  border: solid 3px #bc6c25;
+  border-radius: 30px;
+}
 
-            .pasteleria-pokemon{width: 30%;}
-        
+.pasteleria {
+  width: 50%;
+  padding: 5px;
+}
 
-          /* Contacto */
-        
+.pasteleria-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
 
-        
+}
 
-    .formulario {
+.pasteleria-info-top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: start;
+}
+
+
+.pasteleria-info-bot {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  padding: 0px 10px;
+}
+
+.pasteleria-info-top h1 {
+  color: #ffd1dc;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.pasteleria-info-top h3 {
+  color: #f5f5dc;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.pasteleria-info-bot h4 {
+  color: #ffd1dc;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.pasteleria-info-bot a {
+  text-decoration: none;
+  background: #343a40;
+  color: #e9ecef;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+
+.pasteleria-matcha {
+  width: 30%;
+}
+
+.pasteleria-pokemon {
+  width: 30%;
+}
+
+
+/* Contacto */
+
+
+
+
+.formulario {
   max-width: 400px;
   margin: auto;
   background-color: #fff;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .formulario h2 {
@@ -276,45 +342,100 @@ main{background-image: url(./img/fondo-5.avif);
   background-color: #45a049;
 }
 
-#section-contact{margin-top: 100px;
-                display:flex;
-                flex-direction:column;
-                 max-width: 1200px;
-                padding: 70px 0px;
-                justify-content: center;
-                align-items: center;
-                gap: 70px;}
-
-    .iframe{width: 100%;}
-
-    .contact{display: flex;
-        justify-content: space-between;
-        text-align: center;}
-
-.contact-networking{display: flex;
-                    flex-direction: column;
-                    width: 60%;
-                    gap: 20px;}
-
-  .networking{display: flex;
-              justify-content: space-between;
-              text-align: center;
-              padding: 20px 0px;}
-
-  .contact-networking h3{color: #ffd1dc;
-                        font-size: 20px;
-                        font-weight: 700;}
+#section-contact {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 70px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
 
 
-  /* Footer */
+.contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  flex-direction: column;
+}
 
-  #footer-section{background: #283618;}
+.contact-networking {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-contact-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+
+}
+
+.networking {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-networking h3 {
+  color: #ffd1dc;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+}
+
+.iframe {
+  width: 35%;
+}
+
+.info-contact-top h4 {
+  font-size: 22px;
+  color: #f5f5dc;
+}
 
 
 
 
+/* Footer */
 
-    
+.footer-elements {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
 
-        
+.footer-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 
+.footer-list a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #283618;
+}
+
+
+.footer-elements h4 {
+  color: #ffd1dc;
+  font-size: 20px;
+}
