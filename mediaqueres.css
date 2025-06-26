@@ -159,3 +159,148 @@
         flex-direction: column;
     }
 }
+
+/* Tablets Version */
+
+@media (min-width:768px) and (max-width:1024px){
+
+/* Nav-Bar */
+.nav-bar-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar-list a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #283618;
+  font-weight: 600;
+}
+
+.nav-bar-logo {
+  height: 50px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.nav-bar button a {
+  background: #606c38;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #fefae0;
+  width: auto;
+  text-decoration: none;
+  border: solid black;
+}
+
+.img-usuario {
+  width: 30px;
+  height: 30px;
+}
+/* Section-Hero */
+
+#section-hero {
+  margin-top: 100px;
+  display: flex;
+  max-width: 1024px;
+justify-content: center;
+  text-align: center;
+}
+
+.info-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  width:100%;}
+
+
+  
+/* Section Productos */
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 35%;
+  padding: 10px 10px;
+  border: solid #bc6c25;
+  border-radius: 10px;
+  
+}
+
+#section-products {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  padding: 70px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.products-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 60px;
+  
+}
+
+/* Section-Pasteleria */
+.card-pasteleria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  gap: 40px;
+  border: solid 3px #bc6c25;
+  border-radius: 30px;
+  width: 90%;
+
+}
+
+.pasteleria-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+gap: 30px;
+}
+
+/* Section-Contacto */
+
+.info-contact-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding:0px 30px;}
+
+  /* Footer */
+
+  .footer-list a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #283618;
+}
+
+
+  
+}
